@@ -63,6 +63,10 @@ class PageMenuOneViewController: UIViewController {
         self.view.addSubview(pageMenu!.view)
     }
     
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
+    
     func getRandomColor() -> UIColor{
         
         let randomRed:CGFloat = CGFloat(drand48())

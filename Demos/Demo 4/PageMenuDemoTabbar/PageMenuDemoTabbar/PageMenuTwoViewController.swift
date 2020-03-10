@@ -51,4 +51,8 @@ class PageMenuTwoViewController: UIViewController {
         
         self.view.addSubview(pageMenu!.view)
     }
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
 }

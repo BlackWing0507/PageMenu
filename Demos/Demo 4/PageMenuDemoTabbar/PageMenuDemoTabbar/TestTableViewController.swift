@@ -32,6 +32,10 @@ class TestTableViewController: UITableViewController {
         
 //        println("favorites page: viewDidAppear")
     }
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
